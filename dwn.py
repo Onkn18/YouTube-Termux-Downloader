@@ -1,7 +1,13 @@
-import yt_dlp
-import optparse
-from optparse import OptionParser
-from yt_dlp import YoutubeDL
+try:
+  import yt_dlp
+  import optparse
+  import os
+  from optparse import OptionParser
+  from yt_dlp import YoutubeDL
+except Exception as e:
+  print('Downloading Resources...')
+  os.system('pip install yt-dlp')
+  os.system('pip install optparse-pretty')
 
 paser = OptionParser()
 
