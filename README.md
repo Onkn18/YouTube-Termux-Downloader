@@ -14,5 +14,5 @@ Follow these steps to set up Termux:
    pkg install git
    pkg install python3
    git clone https://github.com/Onkn18/YouTube-Termux-Downloader.git
-   
-   
+   cd YouTube-Termux-Downloader
+   python3 pwn.py -h
