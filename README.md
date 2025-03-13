@@ -13,4 +13,6 @@ Follow these steps to set up Termux:
    apt update -y||apt upgrade -y
    pkg install git
    pkg install python3
+   git clone https://github.com/Onkn18/YouTube-Termux-Downloader.git
+   
    
